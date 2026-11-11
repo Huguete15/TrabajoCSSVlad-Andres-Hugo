@@ -20,4 +20,5 @@ nav a:hover {color:#42BCEB ;}
 .hero-contenido {max-width: 600px;}
 .hero h1 {font-size: 55px; color: #e8edf4;}
 .hero p {font-size: 18px; color:#B8C7D9; line-height: 1.6;}
-.hero {}
+.hero {background-image: linear-gradient(to right, rgba(8,14,25,0.95), rgba(8,14,25,0.2)), url(../andres/foto_espacio3.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+.boton-hero {display: inline-block; background-color: #1D4263; color: #e8edf4; padding: 14px 25px; border: 1px solid #42bceb; border-radius: 6px; text-decoration: none; margin-top: 20px; transition: all 0.3s ease;}

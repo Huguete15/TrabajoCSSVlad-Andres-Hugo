@@ -1,0 +1,23 @@
+
+/*===============menu===============*/
+
+
+.submenu {display:none; position: absolute; top: 100%; left: 0; list-style:none;background-color: #101E32; padding: 10px;border-radius: 8px; min-width: 150px;} 
+.submenu li {padding: 10px}
+.submenu li:hover {background-color:#1D4263;}
+.desplegable {position: relative; cursor:pointer; list-style:none;}
+.desplegable:hover .submenu {display: block;}
+.nav {background-color: #101E32; padding: 15px 30px; border-bottom: 1px solid #1D4263 ;}
+.nav > ul {display: flex; justify-content: space-between; align-items: center; list-style:none; padding: 0; margin: 0;}
+.lista {list-style: none; }
+nav a {text-decoration: none; color: #e8edf4;padding:10px; transition: color 0.3s;}
+nav a:hover {color:#42BCEB ;}
+
+
+/*===============pagina 1===============*/
+.theme-space {background-color: #080E19; color:aliceblue}
+.hero {min-height: 80vh; display: flex; align-items: center; padding: 40px;}
+.hero-contenido {max-width: 600px;}
+.hero h1 {font-size: 55px; color: #e8edf4;}
+.hero p {font-size: 18px; color:#B8C7D9; line-height: 1.6;}
+.hero {background-image:url('../Images/foto_espacio.jpg');}
