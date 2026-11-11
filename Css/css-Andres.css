@@ -22,3 +22,13 @@ nav a:hover {color:#42BCEB ;}
 .hero p {font-size: 18px; color:#B8C7D9; line-height: 1.6;}
 .hero {background-image: linear-gradient(to right, rgba(8,14,25,0.95), rgba(8,14,25,0.2)), url(../andres/foto_espacio3.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
 .boton-hero {display: inline-block; background-color: #1D4263; color: #e8edf4; padding: 14px 25px; border: 1px solid #42bceb; border-radius: 6px; text-decoration: none; margin-top: 20px; transition: all 0.3s ease;}
+.boton-hero:hover {background-color:#42BCEB; color: #080E19; box-shadow: 0 0 15px rgba(66, 188, 235, 0.5); transform: translateY(-3px)}
+/*===============pagina 2-sinopsis===============*/
+
+.sinopsis {display: flex; align-items:center; gap: 40px; padding:60px; min-height: 70vh;}
+.sinopsis-contenido {flex:1;}
+.sinopsis-imagen {flex:1; }
+.sinopsis-imagen img {width: 100%; height:350px; object-fit:cover; border-radius: 12px;}
+.etiqueta {color: #42bceb; font-size: 14px; letter-spacing: 4px; font-weight:bold; text-transform: uppercase;}
+.sinopsis-contenido h1 {font-size: 38px;color: #e8edf4; margin-top: 15px; margin-bottom: 20px; background: #1D4263;}
+.sinopsis-contenido p {font-size:17px; color: #B8C7D9; line-height: 1.8; text-align: justify;}
