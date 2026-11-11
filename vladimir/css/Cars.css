@@ -1,0 +1,438 @@
+
+/* =========================================
+   CONFIGURACIÓN GENERAL
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #101116;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================================
+   CABECERA PRINCIPAL
+========================================= */
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7%;
+    background-color: #191b24;
+    border-bottom: 3px solid #D71920;
+}
+
+.logo h1 {
+    color: #D71920;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.logo span {
+    color: #F5C518;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+
+/* MENÚ DE NAVEGACIÓN */
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #F5C518;
+}
+
+.menu .activo {
+    color: #D71920;
+}
+
+
+/* =========================================
+   PRESENTACIÓN CINEMATOGRÁFICA
+========================================= */
+
+.presentacion {
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #191b24;
+    gap: 40px;
+}
+
+.presentacion-texto {
+    max-width: 650px;
+    flex: 1;
+}
+
+.etiqueta {
+    color: #F5C518;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.presentacion-texto h2 {
+    font-size: 48px;
+    color: white;
+    margin: 20px 0;
+}
+
+.frase-intro {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+
+/* BOTÓN */
+
+.boton {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #D71920;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #F5C518;
+    color: #101116;
+    transform: translateY(-4px);
+}
+
+
+/* PÓSTER PRINCIPAL */
+
+.presentacion-poster {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion-poster img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(215, 25, 32, 0.65),
+                0 10px 40px rgba(215, 25, 32, 0.4);
+    transition: transform 0.4s ease;
+}
+
+.presentacion-poster img:hover {
+    transform: scale(1.04);
+}
+
+
+/* =========================================
+   INTRODUCCIÓN A LA PELÍCULA
+========================================= */
+
+.introduccion {
+    padding: 65px 10%;
+    text-align: center;
+}
+
+.introduccion h2 {
+    color: #D71920;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.introduccion p {
+    max-width: 850px;
+    margin: 0 auto;
+    color: #cccccc;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   BLOQUES DE LA SINOPSIS
+========================================= */
+
+.sinopsis {
+    padding: 70px 10%;
+}
+
+.sinopsis-bloque {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 25px;
+}
+
+.sinopsis-texto {
+    flex: 1;
+}
+
+.sinopsis-texto h2 {
+    color: #F5C518;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.sinopsis-texto p {
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* IMÁGENES DE LA SINOPSIS */
+
+.sinopsis-imagen {
+    flex: 1;
+    min-width: 0;
+}
+
+.sinopsis-imagen img {
+    width: 100%;
+    height: 280px;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(215, 25, 32, 0.35);
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease;
+}
+
+.sinopsis-imagen img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 30px rgba(215, 25, 32, 0.65);
+}
+
+
+/* SEPARADORES */
+
+.sinopsis hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #D71920,
+        #F5C518,
+        #D71920,
+        transparent
+    );
+    margin: 55px 0;
+}
+
+
+/* COLORES DE LAS CINCO PARTES */
+
+.etiqueta.parte-2,
+.parte-2 h2 {
+    color: #dd7113;
+}
+
+.etiqueta.parte-3,
+.parte-3 h2 {
+    color: #c70404;
+}
+
+.etiqueta.parte-4,
+.parte-4 h2 {
+    color: #ebe41b;
+}
+
+.etiqueta.parte-5,
+.parte-5 h2 {
+    color: #d20101;
+}
+
+
+/* =========================================
+   RUEDA DECORATIVA DE RAYO MCQUEEN
+========================================= */
+
+.rueda-mcqueen {
+    width: 110px;
+    height: 110px;
+    margin: 50px auto 10px;
+    border: 9px solid #343741;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle,
+            #F5C518 0 12%,
+            #D71920 13% 23%,
+            transparent 24%),
+        repeating-conic-gradient(
+            #aeb3bd 0deg 8deg,
+            #343741 8deg 20deg
+        );
+    box-shadow: 0 0 15px rgba(215, 25, 32, 0.4),
+                inset 0 0 12px #000000;
+    transition: transform 1s ease,
+                box-shadow 0.4s ease;
+}
+
+.rueda-mcqueen:hover {
+    transform: rotate(720deg);
+    box-shadow: 0 0 30px rgba(215, 25, 32, 0.8);
+}
+
+
+/* =========================================
+   DISEÑO RESPONSIVE
+========================================= */
+
+@media (max-width: 950px) {
+
+    .presentacion {
+        padding: 50px 6%;
+    }
+
+    .presentacion-texto h2 {
+        font-size: 38px;
+    }
+
+    .sinopsis {
+        padding: 60px 6%;
+    }
+
+    .sinopsis-bloque {
+        gap: 25px;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+
+    /* CABECERA */
+
+    .cabecera {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+
+    /* PRESENTACIÓN */
+
+    .presentacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .presentacion-texto h2 {
+        font-size: 34px;
+    }
+
+    .presentacion-poster img {
+        max-width: 260px;
+    }
+
+
+    /* SINOPSIS */
+
+    .sinopsis-bloque {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .sinopsis-texto,
+    .sinopsis-imagen {
+        width: 100%;
+    }
+
+    .sinopsis-texto h2 {
+        font-size: 26px;
+    }
+
+    .sinopsis-imagen {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.sinopsis-imagen img {
+    width: 100%;
+    height: 280px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+
+    box-shadow: 0 0 20px rgba(215, 25, 32, 0.35);
+
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease;
+}
+
+.sinopsis-texto {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+    .introduccion {
+        padding: 50px 7%;
+    }
+
+}
+
+/* AJUSTE EXCLUSIVO: IMAGEN DOC VS MCQUEEN */
+
+.sinopsis-bloque:nth-of-type(5) .sinopsis-imagen img {
+    height: 380px;
+    object-fit: contain;
+}
+.imagen-doc img {
+    height: 380px;
+    object-fit: contain;
+}
+/* RUEDA DECORATIVA DE RAYO MCQUEEN */
+
+.rueda-mcqueen {
+    width: 160px;
+    height: auto;
+    display: block;
+    margin: 50px auto 20px;
+
+    filter: drop-shadow(0 0 12px rgba(215, 25, 32, 0.4));
+
+    transition: transform 1.2s ease, filter 0.4s ease;
+}
+
+.rueda-mcqueen:hover {
+    transform: rotate(720deg) scale(1.08);
+
+    filter: drop-shadow(0 0 25px rgba(215, 25, 32, 0.8));
+}
