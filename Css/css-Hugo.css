@@ -1,5 +1,5 @@
 /*Menu*/
-nav{background-color: #0D0D0D; 
+nav{background-color:transparent; 
 }
 ul {
     display: flex;
@@ -10,6 +10,7 @@ ul {
 li a{
     text-decoration: none;
     color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .li  {
     color: #00FFFF;
@@ -49,8 +50,21 @@ li a{
 }
 
 /*Titulo*/
-.titulo {
-    font-family: 'Permanent Marker', cursive, sans-serif;
+.titulo2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem; 
+    text-align: center;
+  color: #ffffff;
+text-transform: uppercase;
+text-shadow: 
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #eeeeee,
+    0 0 80px #cccccc;
+    margin-top: 50px}
+    .titulo {
+    font-family: 'Montserrat', sans-serif;
     font-size: 5rem; 
     text-align: center;
     color: #ff4d4d; 
@@ -64,4 +78,41 @@ li a{
     margin-top: 50px}
 /*Colores*/
 .fondo {color: color-mix(in srgb, #6A0DAD 25%, #FF007F);}
-body {background-color: #0D0D0D}
+.blanco {color: #ffffff;}
+body {
+    background: linear-gradient(
+        135deg,
+        #050505,
+        #101010,
+        #510101);
+    }
+
+/*Vaso fiesta*/
+.vaso-fiesta {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 50px auto 20px;
+
+    filter: drop-shadow(0 0 12px rgb(255, 0, 8));
+
+    transition: transform 1.2s ease, filter 0.4s ease;
+    position: absolute;
+    top: 60px;
+    left: 140px;
+
+}
+
+.vaso-fiesta:hover {
+    transform: rotate(720deg) scale(1.08);
+
+    filter: drop-shadow(0 0 25px rgba(215, 25, 32, 0.8));
+}
+
+/*Parrafo*/
+.parrafo {position: absolute;
+    top: 123px;
+    left: 270px;
+    margin: 250px;
+    font-size: 25px;
+}
