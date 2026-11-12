@@ -7,44 +7,42 @@ ul {
     gap: 15px;
     padding: 0;
 }
-li a {
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.li  {
     color: #00FFFF;
     display: block;
     padding: 12px 25px;
-    text-decoration: none;
     border: 2px solid #00FFFF;
     border-radius: 10px;
     transition: 0.3s;
 }
-li a:hover {
+.li:hover {
     background-color: #00FFFF;
     color: #0D0D0D;
     box-shadow: 0 0 15px #00FFFF;
     transform: translateY(-3px);
 }
 
-.submenu {
-     display: block;
-    justify-content: center;
-    gap: 15px;
-    padding: 0;
-}
-.submenu-li {
-  color: #11ff00;
+.li2 {
+       color: #00ff1a;
     display: block;
     padding: 12px 25px;
-    text-decoration: none;
-    border: 2px solid #11ff00;
+    border: 2px solid #00ff1a;
     border-radius: 10px;
     transition: 0.3s;
 }
-.submenu-hover:hover {
-    display: block;
-    background-color: #11ff00;
+
+.li2:hover{
+    background-color: #00ff1a;
     color: #0D0D0D;
-    box-shadow: 0 0 15px #11ff00;
+    box-shadow: 0 0 15px #00ff1a;
     transform: translateY(-3px);
 }
+
+
 /*Parallax*/
 .parallax{
    background-attachment: fixed;
