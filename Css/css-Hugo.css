@@ -1,7 +1,50 @@
 /*Menu*/
+nav{background-color: #0D0D0D; 
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+li a {
+    color: #00FFFF;
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    border: 2px solid #00FFFF;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+li a:hover {
+    background-color: #00FFFF;
+    color: #0D0D0D;
+    box-shadow: 0 0 15px #00FFFF;
+    transform: translateY(-3px);
+}
 
-
-
+.submenu {
+     display: block;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+.submenu-li {
+  color: #11ff00;
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    border: 2px solid #11ff00;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.submenu-hover:hover {
+    display: block;
+    background-color: #11ff00;
+    color: #0D0D0D;
+    box-shadow: 0 0 15px #11ff00;
+    transform: translateY(-3px);
+}
 /*Parallax*/
 .parallax{
    background-attachment: fixed;
@@ -23,3 +66,4 @@
     margin-top: 50px}
 /*Colores*/
 .fondo {color: color-mix(in srgb, #6A0DAD 25%, #FF007F);}
+body {background-color: #0D0D0D}
