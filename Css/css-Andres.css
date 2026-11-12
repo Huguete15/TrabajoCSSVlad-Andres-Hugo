@@ -32,3 +32,7 @@ nav a:hover {color:#42BCEB ;}
 .etiqueta {color: #42bceb; font-size: 14px; letter-spacing: 4px; font-weight:bold; text-transform: uppercase;}
 .sinopsis-contenido h1 {font-size: 38px;color: #e8edf4; margin-top: 15px; margin-bottom: 20px; background: #1D4263;}
 .sinopsis-contenido p {font-size:17px; color: #B8C7D9; line-height: 1.8; text-align: justify;}
+.trailer {padding: 60px; text-align:left;}
+.trailer p { color: #B8C7D9; font-size: 17px; margin-bottom: 30px;}
+.video {max-width: 900px; margin:30px auto}
+.video video{max-width:100%; border-radius: 12px; border: 1px solid #1d4263;}
