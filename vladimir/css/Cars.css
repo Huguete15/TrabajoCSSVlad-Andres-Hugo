@@ -331,6 +331,16 @@ body {
 
 @media (max-width: 720px) {
 
+    .personajes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .seccion-personajes {
+        padding: 30px 6% 60px;
+    }
+
+
+
     /* CABECERA */
 
     .cabecera {
@@ -435,4 +445,104 @@ body {
     transform: rotate(720deg) scale(1.08);
 
     filter: drop-shadow(0 0 25px rgba(215, 25, 32, 0.8));
+}
+
+.introduccion-personajes {
+    text-align: center;
+    padding: 70px 10% 50px;
+}
+
+.introduccion-personajes h2 {
+    font-size: 38px;
+    color: white;
+    margin: 20px 0;
+}
+
+.introduccion-personajes p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #ccc;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* SECCIÓN DE PERSONAJES */
+
+.seccion-personajes {
+    padding: 40px 10% 80px;
+}
+
+.personajes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+/* SECCIÓN DE PERSONAJES */
+
+.seccion-personajes {
+    padding: 40px 10% 80px;
+}
+
+.personajes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+/* TARJETAS */
+
+.tarjeta-personaje {
+    background-color: #191b24;
+    border: 1px solid #333541;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-personaje:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 22px rgba(215, 25, 32, 0.4);
+}
+
+.imagen-personaje {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    display: block;
+}
+
+.informacion-personaje {
+    padding: 25px;
+}
+
+.informacion-personaje h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rol-personaje {
+    color: #F5C518;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.informacion-personaje p:last-child {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* ADAPTACIÓN MÓVIL: PERSONAJES */
+
+@media (max-width: 720px) {
+
+    .personajes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .seccion-personajes {
+        padding: 30px 6% 60px;
+    }
+
 }
