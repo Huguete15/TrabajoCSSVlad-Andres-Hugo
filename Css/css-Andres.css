@@ -36,3 +36,11 @@ nav a:hover {color:#42BCEB ;}
 .trailer p { color: #B8C7D9; font-size: 17px; margin-bottom: 30px;}
 .video {max-width: 900px; margin:30px auto}
 .video video{max-width:100%; border-radius: 12px; border: 1px solid #1d4263;}
+/*===============pagina 3-personajes===============*/
+.personajes-contenedor {display: flex; justify-content: center; gap: 30px; flex-wrap:wrap; padding: 40px 0;}
+.tarjeta-personajes {width: 280px; background-color: #101E32; border: 1px solid #1D4263; border-radius: 12px; overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;}
+.tarjeta-personajes img {width: 100%; height: 320px; object-fit: cover; display: block; }
+.tarjeta-info{ padding: 20px; }
+.tarjeta-info h2 {color: #42bceb; margin-bottom: 10px;}
+.tarjeta-info p {color: #B8C7D9; line-height: 1.6;}
+.tarjeta-personajes:hover{transform: translateY(-8px); box-shadow: 0 12px 25px rgba(66, 188, 235, 0.2);}
