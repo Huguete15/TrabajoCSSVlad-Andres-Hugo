@@ -178,6 +178,7 @@ margin: 30px;
     height: 400px;
     display: block;
     transition: transform 0.5s ease;
+    background-attachment: fixed;
 }
 
 .desplazamiento-actores:hover .actores {
@@ -188,16 +189,20 @@ margin: 30px;
     height: 400px;
     display: block;
     transition: transform 0.5s ease;
+    background-attachment: fixed;
 }
 
 .desplazamiento-actores2:hover .actores2 {
     transform: translateY(30%);
+    z-index: 2;
+    
 }
 .actores3 {
     width: auto;
     height: 400px;
     display: block;
     transition: transform 0.5s ease;
+    background-attachment: fixed;
 }
 
 .desplazamiento-actores3:hover .actores3 {

@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(
+        270deg,
+        #050505,
+        #565656,
+        #cbcbcb
+    );
+
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    display: flex;
+}
+
+.div {
+    position: absolute;
+    display: block;
+    padding: 12px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    top: 36%;
+}
+
+.div:hover{
+    transform:skew(5deg) 
+}
+
+
+.titulo-cine {
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+     min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
