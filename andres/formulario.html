@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+     <link rel="stylesheet" href="../Css/css-Andres.css">
+</head>
+<body>
+     <main>
+        
+<section class="formulario">
+    <h1>Tu opinion cuenta</h1>
+    <p>Comparte tu experiencia con nuestras peliculas</p>
+
+<form action="#" method="post">
+
+    <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"
+        placeholder="Escribe tu nombre" required>
+    </div>
+
+</form>
+<div class="campo">
+    <label for="correo">Correo electrónico</label>
+
+    <input
+        type="email"
+        id="correo"
+        name="correo"
+        placeholder="ejemplo@correo.com"
+    >
+</div>
+
+
+
+<div class="campo">
+    <label for="pelicula">Selecciona una película</label>
+
+    <select id="pelicula" name="pelicula" required>
+        <option value="">Elige una película</option>
+        <option value="project-hail-mary">Project Hail Mary</option>
+        <option value="pelicula-2">Projecto X</option>
+        <option value="pelicula-3">Cars</option>
+    </select>
+</div>
+
+
+<div class="campo">
+    <label for="valoracion">¿Qué puntuación le das?</label>
+
+    <select id="valoracion" name="valoracion" required>
+        <option value="">Selecciona una puntuación</option>
+        <option value="1">1 - Muy mala</option>
+        <option value="2">2 - Mala</option>
+        <option value="3">3 - Normal</option>
+        <option value="4">4 - Muy buena</option>
+        <option value="5">5 - Excelente</option>
+    </select>
+</div>
+
+<div class="campo">
+    <label for="comentario">Cuéntanos tu opinión</label>
+
+    <textarea
+        id="comentario"
+        name="comentario"
+        rows="5"
+        placeholder="Escribe aquí tu opinión..."
+        required>
+    </textarea>
+</div>
+
+<button type="submit" class="boton-enviar">
+    ENVIAR OPINIÓN
+</button>
+
+
+
+
+
+    
+</section>
+     </main>
+
+
+
+
+</body>
+</html>

@@ -44,3 +44,14 @@ nav a:hover {color:#42BCEB ;}
 .tarjeta-info h2 {color: #42bceb; margin-bottom: 10px;}
 .tarjeta-info p {color: #B8C7D9; line-height: 1.6;}
 .tarjeta-personajes:hover{transform: translateY(-8px); box-shadow: 0 12px 25px rgba(66, 188, 235, 0.2);}
+/*===============Formulario===============*/
+.formulario {background-color: #242735;}
+body {background-color: #171923; color: #e5e7eb;}
+.formulario {max-width: 600px; margin: 60px auto; padding: 35px; background-color: #242735;border-radius: 12px;}
+.campo {display:flex; flex-direction: column; gap: 10px; margin-top: 25px;}
+.campo label {font-weight: bold;}
+.campo input {padding: 12px; background-color: #171923; border: 1px solid #41465A; border-radius: 6px; color: #e5e7eb;} 
+.campo select,
+.campo textarea{ padding: 12px; background-color: #171923; border: 1px solid #41465A; border-radius: 6px; color: #e5e7eb;}
+.boton-enviar {  width: 100%;padding: 14px;margin-top: 25px;background-color: #E5A13D;color: #171923; border: none;border-radius: 6px;font-weight: bold;cursor: pointer;transition: 0.3s;}
+.boton-enviar:hover{background-color: #f2b95f;transform: translateY(-3px); box-shadow: 0 5px 15px rgba(229, 161, 61, 0.25);}
