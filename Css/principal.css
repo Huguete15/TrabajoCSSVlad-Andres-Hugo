@@ -51,3 +51,29 @@ div {
     color: transparent;
      -webkit-text-stroke: 1.5px rgb(0, 0, 0);
 }
+
+.boton{
+        display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 22%;
+    left: 44%;
+    color: #000000;
+    display: block;
+    padding: 10px 18px;
+    
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.boton:hover{
+    background-color: #ffffff;
+    color: #0D0D0D;
+    box-shadow: 0 0 15px #ffffff;
+    transform: translateY(-3px);
+    border: 2px solid #000000;
+}
