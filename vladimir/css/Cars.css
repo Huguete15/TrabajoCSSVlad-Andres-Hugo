@@ -546,3 +546,221 @@ body {
     }
 
 }
+
+.imagen-desarrollo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-desarrollo img {
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(215, 25, 32, 0.4);
+}
+
+/* DESARROLLO DE LA PELÍCULA */
+
+.desarrollo-produccion {
+    padding: 50px 10%;
+}
+
+.desarrollo-produccion h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.bloque-desarrollo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.texto-desarrollo {
+    flex: 1;
+}
+
+.texto-desarrollo h3 {
+    color: #F5C518;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.texto-desarrollo p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.imagen-desarrollo {
+    flex: 1;
+}
+
+.imagen-desarrollo img {
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(215, 25, 32, 0.4);
+}
+
+
+/* FICHA TÉCNICA */
+
+.ficha-tecnica {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.ficha-tecnica h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.subtitulo-produccion {
+    color: #ccc;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.datos-tecnicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.dato {
+    background-color: #191b24;
+    border: 1px solid #333541;
+    border-left: 4px solid #D71920;
+    border-radius: 10px;
+    padding: 25px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dato:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 18px rgba(215, 25, 32, 0.35);
+}
+
+.dato h3 {
+    color: #F5C518;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.dato p {
+    color: white;
+    font-size: 16px;
+}
+
+
+/* ANIMACIÓN Y DISEÑO */
+
+.animacion-diseno {
+    padding: 50px 10%;
+}
+
+.animacion-diseno h2 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.bloque-animacion {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.imagen-animacion {
+    flex: 1;
+}
+
+.imagen-animacion img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(215, 25, 32, 0.4);
+}
+
+.texto-animacion {
+    flex: 1;
+}
+
+.texto-animacion h3 {
+    color: #F5C518;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.texto-animacion p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+/* MÚSICA Y SONIDO */
+
+.musica-sonido {
+    padding: 50px 10%;
+}
+
+.musica-sonido h2 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.bloque-musica {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.texto-musica {
+    flex: 1;
+}
+
+.texto-musica h3 {
+    color: #F5C518;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.texto-musica p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.imagen-musica {
+    flex: 1;
+}
+
+.imagen-musica img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(215, 25, 32, 0.4);
+}
