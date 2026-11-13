@@ -557,7 +557,7 @@ body {
 .imagen-desarrollo img {
     width: 100%;
     max-width: 400px;
-    height: 280px;
+    height: 270px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(215, 25, 32, 0.4);
@@ -607,7 +607,7 @@ body {
 .imagen-desarrollo img {
     width: 100%;
     max-width: 400px;
-    height: 280px;
+    height: 320px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(215, 25, 32, 0.4);
@@ -758,9 +758,61 @@ body {
 
 .imagen-musica img {
     width: 100%;
-    max-width: 420px;
-    height: 300px;
+    max-width: 700px;
+    height: 350px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(215, 25, 32, 0.4);
+}
+
+/* VIDEO DE PRODUCCIÓN */
+
+.video-produccion {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.video-produccion h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.contenedor-video {
+    max-width: 850px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+}
+
+.contenedor-video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(215, 25, 32, 0.4);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #D71920;
+    margin: 35px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(215, 25, 32, 0.4);
+}
+.enlace-logo {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: rotate(15deg);
 }
