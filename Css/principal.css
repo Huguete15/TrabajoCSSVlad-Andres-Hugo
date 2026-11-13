@@ -61,7 +61,7 @@ div {
     color: #ffffff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
-    top: 22%;
+    top: 23%;
     left: 44%;
     color: #000000;
     display: block;
@@ -74,6 +74,6 @@ div {
     background-color: #ffffff;
     color: #0D0D0D;
     box-shadow: 0 0 15px #ffffff;
-    transform: translateY(-3px);
+    transform: translateY(-3px) scale(135%);
     border: 2px solid #000000;
 }
