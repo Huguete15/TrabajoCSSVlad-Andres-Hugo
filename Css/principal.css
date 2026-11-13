@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(
+        0deg,
+        #050505,
+        #565656,
+        #cbcbcb
+    );
+
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    display: flex;
+}
+
+.div {
+    position: absolute;
+    display: block;
+    padding: 12px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 100%;
+    height: auto;
+    top: 36%;
+}
+
+.div:hover{
+    transform:skew(5deg);
+}
+
+
+.titulo-cine {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+     min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 10%;
+    left: 28%;
+    position: absolute;
+    background-color: #050505;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+     -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}
+
+.boton{
+        display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 23%;
+    left: 44%;
+    color: #000000;
+    display: block;
+    padding: 10px 18px;
+    
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.boton:hover{
+    background-color: #ffffff;
+    color: #0D0D0D;
+    box-shadow: 0 0 15px #ffffff;
+    transform: translateY(-3px) scale(135%);
+    border: 2px solid #000000;
+}
