@@ -220,4 +220,15 @@ margin: 30px;
 }
 
 
-
+video {
+    display: block;
+    padding: 12px 25px;
+    transition: 0.3s;
+    width: 50%; height: auto; position: absolute; top: 30%; left: 24%
+}
+video:hover {
+    border-radius: 10%;
+    border-color: #510101;
+    transform:scale(150%) ;
+   
+}
