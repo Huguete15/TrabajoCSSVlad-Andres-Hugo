@@ -181,7 +181,7 @@ margin: 30px;
 }
 
 .desplazamiento-actores:hover .actores {
-    transform: translateY(500px);
+    transform: translateY(30%);
 }
 .actores2 {
     width: auto;
@@ -191,7 +191,7 @@ margin: 30px;
 }
 
 .desplazamiento-actores2:hover .actores2 {
-    transform: translateY(500px);
+    transform: translateY(30%);
 }
 .actores3 {
     width: auto;
@@ -201,7 +201,7 @@ margin: 30px;
 }
 
 .desplazamiento-actores3:hover .actores3 {
-    transform: translateY(500px);
+    transform: translateY(30%);
 }
 
 .texto {
@@ -213,25 +213,11 @@ margin: 30px;
     overflow: hidden;
     transition: all 0.5s ease;
     position: absolute;
-    top: 300px;
-    left: 730px;
-    margin: 120px;
+    top: 38%;
+    left: 50%;
+    margin: 4%;
     font-size: 20px;
 }
 
-.desplazamiento-actores:hover .texto {
-    opacity: 1;
-    max-height: 200px;
-}
-.actores {
-    width: auto;
-    height: 400px;
-    display: block;
-    transition: transform 0.5s ease;
-}
-
-.desplazamiento-actores:hover .actores {
-    transform: translateY(500px);
-}
 
 
