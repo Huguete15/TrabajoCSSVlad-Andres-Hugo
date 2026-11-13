@@ -34,6 +34,7 @@ li a{
     border: 2px solid #00ff1a;
     border-radius: 10px;
     transition: 0.3s;
+    position: relative;
 }
 
 .li2:hover{
@@ -84,8 +85,14 @@ body {
         135deg,
         #050505,
         #101010,
-        #510101);
-    }
+        #510101
+    );
+
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 /*Vaso fiesta*/
 .vaso-fiesta {
@@ -115,4 +122,47 @@ body {
     left: 270px;
     margin: 250px;
     font-size: 25px;
+}
+
+/*Personajes*/
+
+.desplazamiento {
+    width: 650px;
+    margin: auto;
+}
+
+.casa {
+    width: 650px;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.desplazamiento:hover .casa {
+    transform: translateX(-300px);
+}
+
+.texto {
+    background-color: transparent;
+    color: white;
+    padding: 10;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 300px;
+    left: 730px;
+    margin: 120px;
+    font-size: 20px;
+}
+
+.desplazamiento:hover .texto {
+    opacity: 1;
+    max-height: 200px;
+}
+
+.yoquese{
+margin: 30px;
+
 }
