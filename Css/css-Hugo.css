@@ -230,5 +230,6 @@ video:hover {
     border-radius: 10%;
     border-color: #510101;
     transform:scale(150%) ;
+    z-index: 2;
    
 }
